@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SobreMimFragment">
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/foto_pass"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/image1"
+        android:background="@color/linhaSeparador"/>
+
+<ScrollView
+    android:layout_below="@id/view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/titulosSobreMim"
+            android:text="@string/labelNome"/>
+        <TextView
+            android:layout_marginLeft="@dimen/alinhamentoEsquerda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/titulosSobreMim"
+            android:text="@string/labelHabAcademicas"/>
+        <TextView
+            android:layout_marginLeft="@dimen/alinhamentoEsquerda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/habAcademicas"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/titulosSobreMim"
+            android:text="@string/labelDataNascimento"/>
+        <TextView
+            android:layout_marginLeft="@dimen/alinhamentoEsquerda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dataNascimento"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/titulosSobreMim"
+            android:text="@string/labelEmail"/>
+        <TextView
+            android:layout_marginLeft="@dimen/alinhamentoEsquerda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:text="@string/email"
+            android:onClick="openGmail"
+            tools:ignore="OnClick" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/titulosSobreMim"
+            android:text="@string/labelTelemovel"/>
+        <TextView
+            android:layout_marginLeft="@dimen/alinhamentoEsquerda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorLink="#0000FF"
+            android:text="@string/telemovel"
+            android:autoLink="phone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/titulosSobreMim"
+            android:text="@string/labelMorada"/>
+        <TextView
+            android:layout_marginLeft="@dimen/alinhamentoEsquerda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/morada"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/titulosSobreMim"
+            android:text="@string/labelCodPostal"/>
+        <TextView
+            android:layout_marginLeft="@dimen/alinhamentoEsquerda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/codigoPostal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/titulosSobreMim"
+            android:text="@string/labelLocalidade"/>
+        <TextView
+            android:layout_marginLeft="@dimen/alinhamentoEsquerda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/localidade"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

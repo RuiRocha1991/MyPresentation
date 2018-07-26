@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExpTab2Fragment">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/divbeEmresa"
+        android:layout_marginTop="@dimen/distanciaTolBars"
+        style="@style/titulosSkills"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            style="@style/titulosSobreMim"
+            android:id="@+id/text_titulo_ano"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelano"/>
+        <TextView
+            android:layout_alignBottom="@id/text_titulo_ano"
+            android:layout_toEndOf="@id/text_titulo_ano"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/divbeData"/>
+        <TextView
+            style="@style/titulosSobreMim"
+            android:id="@+id/text_titulo_funcao"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_below="@id/text_titulo_ano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Funções: "/>
+        <TextView
+            android:layout_alignBottom="@id/text_titulo_funcao"
+            android:layout_toEndOf="@id/text_titulo_funcao"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/divbeTitulo"/>
+        <TextView
+            style="@style/titulosSobreMim"
+            android:id="@+id/text_titulo_descricao"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_below="@id/text_titulo_funcao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição: "/>
+        <TextView
+            android:layout_below="@id/text_titulo_descricao"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/divbeDescricao"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

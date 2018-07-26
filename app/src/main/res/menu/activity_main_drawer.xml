@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sobreMim"
+            android:icon="@drawable/ic_menu_info"
+            android:title="@string/menu_sobreMim" />
+        <item
+            android:id="@+id/nav_habilitacoes"
+            android:icon="@drawable/ic_menu_habilitacoes"
+            android:title="@string/menu_habAcademicas" />
+        <item
+            android:id="@+id/nav_experiencia"
+            android:icon="@drawable/ic_menu_experiencia"
+            android:title="@string/menu_experiencia" />
+        <item
+            android:id="@+id/nav_skills"
+            android:icon="@drawable/ic_menu_skills"
+            android:title="@string/menu_skills" />
+        <item
+            android:id="@+id/nav_conferencias"
+            android:icon="@drawable/ic_menu_conferencias"
+            android:title="@string/menu_coferencias" />
+        <item
+            android:id="@+id/nav_hobbies"
+            android:icon="@drawable/ic_menu_hobbies"
+            android:title="@string/menu_hobbies" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_terminar"
+            android:icon="@drawable/ic_menu_exit"
+            android:title="@string/menu_sair" />
+    </group>
+</menu>

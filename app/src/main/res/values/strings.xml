@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Rui Rocha</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Rui Rocha</string>
+    <string name="nav_header_subtitle"><u>rocharui@ipvc.pt</u></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_enviarEmail">Enviar Email</string>
+    <string name="action_telefonar">Contactar Telemóvel</string>
+    <string name="menu_sobreMim">Sobre Mim</string>
+    <string name="menu_habAcademicas">Habilitações Académicas</string>
+    <string name="menu_experiencia">Experiencias Profissionais</string>
+    <string name="menu_skills">Skills</string>
+    <string name="menu_coferencias">Conferências</string>
+    <string name="menu_hobbies">Hobbies</string>
+    <string name="menu_sair">Terminar</string>
+
+    <string name="labelNome">Nome: </string>
+    <string name="nome">Rui Guilherme Rodrigues Gonçalves Rocha</string>
+    <string name="labelHabAcademicas">Habilitações Académicas: </string>
+    <string name="habAcademicas">Frequentar 2º ano Licenciatura Engenharia Informática</string>
+    <string name="labelDataNascimento">Data Nascimento: </string>
+    <string name="dataNascimento">20/06/1991</string>
+    <string name="labelEmail">Email: </string>
+    <string name="email"><u>rocharui@ipvc.pt</u></string>
+    <string name="labelTelemovel">Telemóvel: </string>
+    <string name="telemovel">913268579</string>
+    <string name="labelMorada">Morada: </string>
+    <string name="morada">Rua Sr. do Socorro nº220, 2º direito trás, Areosa</string>
+    <string name="labelCodPostal">Codigo Postal: </string>
+    <string name="codigoPostal">4900-908</string>
+    <string name="labelLocalidade">Localidade: </string>
+    <string name="localidade">Viana do Castelo</string>
+
+    <string name="cursoTecnicoAno">2006/2009</string>
+    <string name="cursoTecnicoTitulo">Curso Técnico de Informática</string>
+    <string name="cursoTecnicoDescricao">Curso frequentado no Centro de Emprego e Formação Profissional para realizar o 12º ano e começar com a minha aprendizagem mais profunda na área. Um curso mais destinado para a reparação de computadores e utilizar ferramentas Office entre outras. Também incluía algumas abordagens de programação que me tem ajudado até aos dias de hoje.</string>
+    <string name="licenciaturaTitulo">Licenciatura Engenharia Informática</string>
+    <string name="licenciaturaAno">2016/Presente</string>
+    <string name="licenciaturaDescricao">Um curso de duração de 3 anos onde são abordados imensos temas da área, para nos ajudar a ter o maior conhecimento quando entrarmos no mercado de trabalho</string>
+    <string name="cursoExtraTitulo">Ilustre Saber</string>
+    <string name="cursoExtraData">2006</string>
+    <string name="cursoExtraDescricao">Um pequeno curso de 84 horas com foco principal nas ferramentas Microsoft, Windows e Office.</string>
+
+    <string name="mephistoDataTitulo">2009/2010</string>
+    <string name="mephistoEmpresa">Mephisto Portugal</string>
+    <string name="mephistoData">10/2009-09/2010</string>
+    <string name="mephistoTitulo">Colador de solas de Terceira</string>
+    <string name="mephistoDescricao">Esta experiência profissional incutiu desde cedo o sentido de cumprir com rigor, perfecionismo e esforço os objetivos de produção estipulados. Trabalho de execução bastante exigente ao nível físico e de gestão de tempo.</string>
+
+    <string name="divbeEmresa">DivIbérica</string>
+    <string name="divbeData">09/2010-07/2011</string>
+    <string name="divbeTitulo">Aprendiz aplicador pladur</string>
+    <string name="divbeDescricao">As funções desempenhadas nesta empresa proporcionaram grande crescimento pessoal ao nível do trabalho em equipa e da responsabilização. Coordenação de uma pequena equipa e leitura e execução de projetos.</string>
+
+
+    <string name="fontesTitulo">Condutor de máquinas pesadas</string>
+    <string name="fontesDataTitulo">2011/2017</string>
+    <string name="fontesEmpresa">Sociedade de Construções Fontes e Fontes</string>
+    <string name="fontesData">11/2011-09/2017</string>
+    <string name="fontesDescricao">Trabalho desenvolvido na Europac Kraft Viana com dois pré-requisitos fundamentais: responsabilidade e gestão de tempo. Gestão dos resíduos industriais e controlo/manutenção dos equipamentos que operava. Esta função desempenhada em turnos rotativos proporcionou o conhecimento do funcionamento deste grupo empresarial da indústria do papel e cartão para embalagens.</string>
+
+    <string name="softSkills"> Tenho gosto em aprender coisas novas, gosto de trabalho em
+    equipa e de ajudar os outros. Sinto-me motivado e considero que
+    sou bom gestor de tempo</string>
+
+    <string name="hardSkills"> Tenho conhecimentos nas linguagens
+de programação C e Java, com notas acima da média nas unidades
+curriculares onde estas linguagens são lecionadas. Ao longo do
+curso realizei trabalhos em Android Studio, ASP.NET e C# e
+alguns conhecimentos em HTML e CSS. Em base de dados
+considero ter bons conhecimentos de Oracle SQL, e algumas
+bases tanto a MySQL como a SQL Server.</string>
+
+    <string-array name="hobbies">
+        <item>Correr</item>
+        <item>Jogar Futebol</item>
+        <item>Ouvir Musica</item>
+        <item>Ver Filmes</item>
+        <item>Viajar com amigos</item>
+        <item>Viajar com família</item>
+        <item>Ler sobre tecnologia</item>
+        <item>Fotografia</item>
+    </string-array>
+
+    <string name="labelano">Ano: </string>
+    <string name="labelDescicao">Descrição: </string>
+    <string name="contactar">Contactar</string>
+    <string name="enviar_email">Enviar Email</string>
+    <string name="hardskills">HardSkills: </string>
+    <string name="softskills">SoftSkills: </string>
+</resources>
